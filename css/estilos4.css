@@ -1,4 +1,4 @@
-/*Ceamos los estilos de la pagina y del menu */
+/*Creamos los estilos de la pagina y del menu */
 html {
     height: 100%;
 }
@@ -58,6 +58,41 @@ body{
     font-size: 25px;
     margin-left: 30px;
 }
+
+/* Agregamos los estilos del formulario*/
+.contenedor{
+    padding: 50px, 200px;
+    background-color: #5cb84e;
+    justify-content: center;
+    margin: 60px 350px;
+
+}
+.formulario{
+    width: 70%; 
+    margin: 0 auto; 
+    text-align: left;
+    font-size: 40px;
+    margin-top:50 px ;
+
+}
+.formulario input{
+    font-size: 20px;
+    width: 70%; 
+    border-radius: 5px;
+    padding: 10px;
+}
+.comentario input{
+    width: 60%;
+    padding: 50px;
+}
+.boton{
+    font-size: 30px;
+    background-color: black;
+    padding: 10px;
+    color: beige;
+    width: 510px;
+}
+
 
 /*Creamos los estilos del footer */
 .footer{
