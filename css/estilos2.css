@@ -1,0 +1,100 @@
+/*Ceamos los estilos de la pagina y del menu */
+html {
+    height: 100%;
+}
+body{
+    background-color: #dbdbc7;
+    height: 100%;
+}
+.nav{
+    display: flex;
+    width:  border-box ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    font-size: 20px;
+    background-color:rgb(114, 109, 109);
+}
+.logo{
+    text-decoration: double;
+    font-size: 30px;
+    color: #50c73d;
+    font-weight: 100;
+    padding-top: 20px;
+    font-size: 50px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin-right: 40px;
+}
+.menu li a{
+    font-size: 25px;
+    color:#50c73d;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.menu li a:hover{
+    padding: 5px 10px;
+    background: seagreen;
+    color:rgb(155, 226, 177);
+    border-radius: 15px;
+}
+/* Creamos los estilos de las fotos y de los textos*/
+.contenedor3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    margin:80px ;
+    text-align: start;
+}
+.imagen3{
+    width: 500px;
+    margin-right: 80px;
+    border-radius: 30px;
+}
+.contenedor4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    margin:80px ;
+    text-align: start;
+}
+.imagen4{
+    width: 500px;
+    margin-right: 50px;
+    border-radius: 30px;
+}
+/* cambiamos de color el titulo*/
+.titulo{
+    font-size: 70px;
+    color: #247A17;
+}
+/*Creamos los estilos del footer */
+.footer{
+    display: flex;
+    background-color: rgb(78, 75, 75);
+    text-decoration: none;
+    font-size: 22px;
+    color: #50c73d;
+    text-align:center;
+}
+.menu2{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 350px;
+}
+.contacto {
+    color: #50c73d;
+    text-align: left;
+}
